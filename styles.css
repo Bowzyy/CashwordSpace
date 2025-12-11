@@ -155,3 +155,9 @@ footer p {
     padding-left: 40px;
     margin-top: 60px;
 }
+
+/* ------------------------------ Game ------------------------------*/
+
+canvas {
+    background-color: #000080;
+}
