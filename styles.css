@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'EffraHeavy';
+    src: url('Data/Fonts/EffraHeavy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'EffraHeavy', sans-serif;
+    overflow-x: hidden;
+}
+
+/* ------------------------------ Header ------------------------------*/
+
+header {
+    margin: -20px;
+    background-color: #000080;
+    font-size: 0.9vw;
+}
+
+.header {
+    padding-right: 18vw;
+    padding-left: 18vw;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+header a {
+    color: #FFF;
+}
+
+.navbar {
+    margin-left: -14vw;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 22px;
+}
+
+header img {
+    width: 8vw;
+    height: 3.85vw;
+}
+
+/* ------------------------------ Body ------------------------------*/
+
+.title {
+    background-color: #44F05C;
+    margin: -20px;
+    z-index: -2;
+    position: relative;
+}
+
+.title .nav {
+    padding-top: 1.5vw;
+    padding-left: 19.5vw;
+    font-size: 14px;
+    color: #000080;
+}
+
+.title .gamename {
+    padding-left: 19.5vw;
+    margin-top: -10px;
+    font-size: 50px;
+    color: #000080;
+}
+
+.title .box {
+    padding-bottom: 300px;
+}
+
+.title .shadedbox1, .title .shadedbox2 {
+    background-color: #09A553;
+    opacity: 60%;
+    width: 500px;
+    height: 1500px;
+    rotate: -45deg;
+    position: absolute;
+    left: 80vw;
+    top: -530px;
+}
+
+.title .shadedbox2 {
+    rotate: 45deg;
+}
+
+.container {
+    background: #fff;
+    border-radius: 15px;
+    margin-top: -370px;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    
+}
+
+.container .box {
+    padding-bottom: 100px;
+}
+
+.container .gamename {
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 40px;
+    color: #000080;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+}
+
+.game img {
+    align-items: center;
+    width: 60%;
+    height: 60%;
+}
+
+.bottomarea {
+    width: 110%;
+    height: 500px;
+    background-color: #fff;
+    margin: -20px;
+    margin-top: -475px;
+    z-index: -1;
+    position: relative;
+}
+
+/* ------------------------------ Footer ------------------------------*/
+
+footer {
+    margin: -20px;
+    background-color: #000080;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+footer img {
+    width: 10%;
+    height: 10%;
+}
