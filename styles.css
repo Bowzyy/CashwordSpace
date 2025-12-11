@@ -139,12 +139,19 @@ footer {
 }
 
 .footer {
+    padding: 30px;
     display: flex;
     justify-content: center;
     color: white;
 }
 
 footer img {
-    width: 10%;
-    height: 10%;
+    width: 6.53vw;
+    height: 8.2vw;
+}
+
+footer p {
+    font-size: 40px;
+    padding-left: 40px;
+    margin-top: 60px;
 }
