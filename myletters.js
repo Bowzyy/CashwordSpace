@@ -1,39 +1,27 @@
-export class Button {
+export class MyLetters {
     constructor(game){
         this.game = game;
         this.width = 25;
         this.height = 25;
         this.x = 0;
-        this.y = 0;
+        this.y = 400;
 
-        this.spacing = 30;
+        this.spacing = 26;
 
-        this.text = "?";
-        this.clicked = false;
+        this.text = "";
     }
 
-    onClick() {
-        if (this.clicked) return;
-
+    updateLetter(){
         const letter = this.game.getNextLetter();
-        if (letter !== "") {
-            this.text = letter;
-            this.clicked = true;
-        }
-    }
-
-    moveButton(x, y){
-        this.x = x;
-        this.y = y;
-        console.log("move");
+        this.text = letter;
     }
 
     update(){
-        
+
     }
 
     draw(context){
-        context.fillStyle = "yellow";
+        context.fillStyle = "green";
         context.fillRect(this.x, this.y, this.width, this.height);
 
         context.fillStyle = "black";
