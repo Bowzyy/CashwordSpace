@@ -22,8 +22,6 @@ window.addEventListener('load', function(){
             ) {
                 console.log('clicked', button);
                 button.onClick();
-                
-                //console.log(game.myletters[parseInt((game.letters_left) * -1 ) + 17].x);
 
                 if(game.letters_left < 18){
                     game.myletters[parseInt((game.letters_left) * -1 ) + 17].updateLetter();

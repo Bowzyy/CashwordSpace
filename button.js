@@ -10,6 +10,8 @@ export class Button {
 
         this.text = "?";
         this.clicked = false;
+
+        this.image = document.getElementById('letter_button');
     }
 
     onClick() {
@@ -33,8 +35,7 @@ export class Button {
     }
 
     draw(context){
-        context.fillStyle = "yellow";
-        context.fillRect(this.x, this.y, this.width, this.height);
+        context.drawImage(this.image, this.x, this.y);
 
         context.fillStyle = "black";
         context.font = "20px EffraHeavy";

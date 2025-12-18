@@ -157,6 +157,9 @@ footer p {
 }
 
 /* ------------------------------ Game ------------------------------*/
+#letter_button {
+    display: none;
+}
 
 canvas {
     background-color: #359295;

@@ -9,6 +9,8 @@ export class MyLetters {
         this.spacing = 26;
 
         this.text = "";
+
+        this.image = document.getElementById('letter_button');
     }
 
     updateLetter(){
@@ -21,8 +23,7 @@ export class MyLetters {
     }
 
     draw(context){
-        context.fillStyle = "green";
-        context.fillRect(this.x, this.y, this.width, this.height);
+        context.drawImage(this.image, this.x, this.y);
 
         context.fillStyle = "black";
         context.font = "20px EffraHeavy";
